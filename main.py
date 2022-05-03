@@ -50,9 +50,11 @@ while not end_game:
   comp_b=data[num_B]
   print(logo)
   scr()
-  print(f"Compare A: {comp_a['name']}, {comp_a['description']}, {comp_a['country']} {comp_a['follower_count']}")
+  print(f"Compare A: {comp_a['name']}, {comp_a['description']}, {comp_a['country']}")
+  #print(f"{comp_a['follower_count']}")
   print(vs)  
-  print(f"Compare B: {comp_b['name']}, {comp_b['description']}, {comp_b['country']} {comp_b['follower_count']}")  
+  print(f"Compare B: {comp_b['name']}, {comp_b['description']}, {comp_b['country']} ")  
+  #print(f"{comp_b['follower_count']}")
   y_ans=input("Who has more followers? Type 'A' or 'B': ").upper()
   
   
